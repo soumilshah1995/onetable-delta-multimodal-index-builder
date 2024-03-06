@@ -34,7 +34,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 
-path = "file:///Users/soumilshah/IdeaProjects/SparkProject/tem/hudidb/customers"
+path = "file:///Users/soumilshah/IdeaProjects/SparkProject/DeltaStreamer/hudi/bronze_orders"
 
 spark.read.format("hudi") \
     .option("hoodie.enable.data.skipping", "true") \
@@ -43,4 +43,4 @@ spark.read.format("hudi") \
     .load(path) \
     .createOrReplaceTempView("hudi_snapshot1")
 
-spark.sql("SELECT * FROM hudi_snapshot1 WHERE salary >= 50000000 ").show()
+spark.sql("SELECT * FROM hudi_snapshot1 WHERE order_value >= 50000000 ").show()
