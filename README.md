@@ -6,3 +6,5 @@ onetable-delta-multimodal-index-builder
 #### Step by step guides 
 Link https://www.linkedin.com/pulse/advanced-data-management-building-multi-modal-indexing-soumil-shah-ux95f?utm_source=share&utm_medium=member_ios&utm_campaign=share_via
 
+#### Download jar files 
+https://drive.google.com/drive/folders/1FQw8xljm9NRE9_BCoHSzpauH88FzRJAr?usp=share_link
